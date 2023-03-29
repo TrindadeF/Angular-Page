@@ -1,14 +1,24 @@
 
-.example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+.example-header-image1 {
+    background-image: url('https://i0.wp.com/fraternidadecrypto.com/wp-content/uploads/2021/10/mir4_taoist.webp?resize=1024%2C768&ssl=1');
     background-size: cover;
 }
 
-.mat-card-live {
-  max-width: 350px;
+.example-header-image2 {
+  background-image: url('https://mma.prnewswire.com/media/1937182/MirM_vanguard_vagabond_Logo.jpg?p=twitter');
+  background-size: cover;
+}
+
+.mat-card-game {
+  width: 33%;
   border: 1px solid rgba(10, 10, 10, 0.995);
   border-radius: 4px 3px 6px / 2px 4px;
   padding: 15px 1% 1% 1%;
-  text-align: justify;
+  text-align: start;
   margin: 2%;
+  box-shadow: 5px 5px 5px rgba(0, 0,0,0.2) ;
+}
+
+#container{
+  display: flex;
 }

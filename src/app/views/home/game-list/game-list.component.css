@@ -8,9 +8,27 @@
   background-image: url('https://mma.prnewswire.com/media/1937182/MirM_vanguard_vagabond_Logo.jpg?p=twitter');
   background-size: cover;
 }
+.example-header-image3 {
+  background-image: url('https://www.criptofacil.com/wp-content/uploads/2021/09/axie-infinity-dara-tokens-a-usuarios-e-libera-servico-de-staking.jpg');
+  background-size: cover;
+}
+
+.example-header-image4 {
+background-image: url('https://images4.alphacoders.com/980/thumb-1920-98026.jpg');
+background-size: cover;
+}
+.example-header-image5 {
+  background-image: url('https://adrenaline.com.br/uploads/2022/03/24/74432/Amazon_Games_Adaptar_Lost_Ark_Consoles_-_02.jpg');
+  background-size: cover;
+}
+
+.example-header-image6 {
+background-image: url('https://i0.wp.com/alternativanerd.com.br/wp-content/uploads/2022/12/AN_Black-Desert-Ma-Gu-e-Wu-Sa.jpg?fit=1600%2C900&ssl=1');
+background-size: cover;
+}
 
 .mat-card-game {
-  width: 33%;
+  width: 28%;
   border: 1px solid rgba(10, 10, 10, 0.995);
   border-radius: 4px 3px 6px / 2px 4px;
   padding: 15px 1% 1% 1%;

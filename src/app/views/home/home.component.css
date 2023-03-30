@@ -1,5 +1,14 @@
-.example-spacer {
-    text-align: center;
+.mat-toolbar {
 
-  }
+    background: #0e0e0e;
+    color: #f7f1f1;
+
+ }
+ 
+ .title {
   
+  text-decoration: wavy;
+  text-align: center;
+  text-overflow: ellipsis;
+
+ }

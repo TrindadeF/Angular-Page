@@ -14,11 +14,46 @@
   border: 1px solid rgba(10, 10, 10, 0.995);
   border-radius: 4px 3px 6px / 2px 4px;
   padding: 15px 1% 1% 1%;
-  text-align: start;
   margin: 2%;
   box-shadow: 5px 5px 5px rgba(0, 0,0,0.2) ;
 }
 
 #container{
   display: flex;
+
+  @media (max-width: 728px) {
+    flex-direction: column;
+  }
+}
+
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
 }
